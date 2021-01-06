@@ -1,0 +1,1 @@
+export const validLength = str => str.length >= 3 && str.length <= 100;

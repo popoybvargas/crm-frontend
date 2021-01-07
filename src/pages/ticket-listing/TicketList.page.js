@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import BreadCrumb from '../../components/breadcrumb/BreadCrumb';
 import SearchForm from '../../components/search-form/SearchForm';
@@ -32,7 +33,9 @@ const TicketList = props =>
       </Row>
       <Row>
         <Col>
-          <Button variant="info">Add New Ticket</Button>
+          <Link to="/tickets/new">
+            <Button variant="info">Add New Ticket</Button>
+          </Link>
         </Col>
         <Col className="text-right">
           <SearchForm searchStr={ searchStr } handleOnChange={ handleOnChange } />

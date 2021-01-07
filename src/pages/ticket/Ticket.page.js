@@ -1,14 +1,17 @@
 import { useState } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import BreadCrumb from '../../components/breadcrumb/BreadCrumb';
+import { useParams } from 'react-router-dom';
 
+import BreadCrumb from '../../components/breadcrumb/BreadCrumb';
 import tickets from '../../assets/data/dummy-tickets.json';
 import MessageHistory from '../../components/message-history/MessageHistory';
 import UpdateTicket from '../../components/update-ticket/UpdateTicket';
 
 const Ticket = () =>
 {
-  const [ticket, setTicket] = useState(tickets[0]);
+  const { id } = useParams();
+  const selectedTicket = tickets.find(ticket => ticket.id === +id);
+  const [ticket, setTicket] = useState(selectedTicket);
   const [ticketConversation, setTicketConversation] = useState(ticket.history);
   const [message, setMessage] = useState('');
 

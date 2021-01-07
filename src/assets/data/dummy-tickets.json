@@ -3,7 +3,25 @@
     "id": 1,
     "subject": "Invalid SSL certificate",
     "status": "Client response pending",
-    "addedAt": "2020-10-12"
+    "addedAt": "2020-10-12",
+    "history":
+    [
+      {
+        "date": "2020-10-12",
+        "message": "Pack my box with five dozen liquor jugs",
+        "messageBy": "client"
+      },
+      {
+        "date": "2020-10-12",
+        "message": "The quick brown fox jumps over the lazy dog",
+        "messageBy": "operator"
+      },
+      {
+        "date": "2020-10-13",
+        "message": "Ekla... ekla... eklavu!",
+        "messageBy": "client"
+      }
+    ]
   },
   {
     "id": 2,

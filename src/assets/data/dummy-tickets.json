@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "subject": "Just another ticket",
+    "subject": "Invalid SSL certificate",
     "status": "Client response pending",
     "addedAt": "2020-10-12"
   },
   {
     "id": 2,
-    "subject": "Just another ticket",
+    "subject": "Email certificate expired",
     "status": "Client response pending",
     "addedAt": "2020-10-12"
   },
@@ -19,13 +19,13 @@
   },
   {
     "id": 4,
-    "subject": "Just another ticket",
+    "subject": "Invalid SSL certificate",
     "status": "Client response pending",
     "addedAt": "2020-10-12"
   },
   {
     "id": 5,
-    "subject": "Just another ticket",
+    "subject": "Email certificate expired",
     "status": "Client response pending",
     "addedAt": "2020-10-12"
   },
@@ -37,13 +37,13 @@
   },
   {
     "id": 7,
-    "subject": "Just another ticket",
+    "subject": "Add new ticket page not dipslaying properly",
     "status": "Client response pending",
     "addedAt": "2020-10-12"
   },
   {
     "id": 8,
-    "subject": "Just another ticket",
+    "subject": "Invalid SSL certificate",
     "status": "Client response pending",
     "addedAt": "2020-10-12"
   }

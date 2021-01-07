@@ -1,5 +1,7 @@
 import { Breadcrumb } from 'react-bootstrap';
 
+import './breadcrumb.css';
+
 const BreadCrumb = ({ page }) =>
 {
   return (
